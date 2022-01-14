@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+/*colors*/
+:root{
+   /* --Darkcyan: hsl(185, 75%, 39%);
+    --Verydarkdesaturatedblue: hsl(229, 23%, 23%);
+    --Darkgrayishblue: hsl(227, 10%, 46%);
+    --Darkgray: hsl(0, 0%, 59%);
+    */
+    font-size: 18px;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family:'Lexend Deca', sans-serif; 
+    color: hsl(0, 11%, 12%);
+
+}
+
+section{
+    background: hsl(185, 75%, 39%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card{
+    width: 350px;
+    height: 430px;
+    border-radius: 20px;
+    background: white;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card-header{
+    background-image: url(desing/bg-pattern-card.svg);
+    background-size: cover;
+    height: 150px;
+}
+
+.card-body{
+    padding: 0 20px 25px;
+}
+
+
+
+.profile{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border:5px solid white;
+    overflow: hidden;
+    margin: -50px auto 30px auto;
+}
+
+.profile img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.nomeidade{
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+}
+
+.idade, 
+.city, 
+.meta{
+    font-weight: 400;
+    color: hsl(0, 11%, 12%);
+    opacity: 0.6;
+}
+
+.idade{
+    margin-left: 6px;
+    font-weight: 400;
+}
+
+.city{
+    font-size: 0.9rem;
+}
+
+
+.cardfooter{
+    border-top: 1px solid hsl(0, 3%, 86%);
+    display: flex !important;
+    padding: 0 25px;
+}
+
+.cardfooter {
+    flex: 1 !important;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardfooter, .item, .value{
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+    padding: 5px;
+}
+
+.cardfooter, .item, .meta{
+    font-size: .7rem;
+    letter-spacing: 2px;
+}
